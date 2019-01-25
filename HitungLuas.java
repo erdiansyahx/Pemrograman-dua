@@ -10,6 +10,25 @@ import java.util.Scanner;
  *
  * @author fujitsu
  */
+
+  public static void luasPersegiPanjang() {
+        int panjang;
+        int lebar;
+        int luas;
+        Scanner masukkan = new Scanner(System.in);
+
+        System.out.print("Masukan panjang : ");
+        panjang = masukkan.nextInt();
+
+        System.out.print("Masukan Lebar   : ");
+        lebar = masukkan.nextInt();
+
+        luas = panjang * lebar;
+
+        System.out.println("Luas persegi panjang adalah: " + luas);
+        System.out.println("");
+    }
+
 public class HitungLuas {
 
     /**
